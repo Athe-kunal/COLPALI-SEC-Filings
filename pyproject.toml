@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "colpali"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9,!=3.9.7"
+pdfkit = "^1.0.0"
+wkhtmltopdf = "^0.2"
+pandas = "^2.2.2"
+requests = "^2.32.3"
+colpali-engine = {git = "https://github.com/illuin-tech/colpali"}
+ipykernel = "^6.29.5"
+typer = "^0.12.4"
+pdf2image = "^1.17.0"
+matplotlib = "^3.9.2"
+seaborn = "^0.13.2"
+einops = "^0.8.0"
+streamlit = "^1.37.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
